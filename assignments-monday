@@ -43,7 +43,7 @@ if( x[index] > max) {
  }
 console.log(max)
 
-
+-----------------------------------------------------------
 
 //#6  (Get Average)
 
@@ -55,6 +55,19 @@ sum += x[index]
  }
 console.log(sum / x.length)
 
+------------------------------------------------------------
+
+
+//#7 (Eliminate the Negatives)
+
+x=[2,-1,4,-3];
+for(var i=0;i<x.length; i++)
+{
+	if (x[i] < 0)
+	{
+		x=0;
+	}
+}
 
 
 
